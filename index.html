@@ -1,0 +1,1436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B Jagan | MCA Portfolio - AI & Machine Learning Specialist</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Personal portfolio of B Jagan, an MCA student specializing in AI & Machine Learning. Software Developer, Java/Python programmer, and Full Stack Learner.">
+    <meta name="keywords" content="B Jagan, Portfolio, MCA, Artificial Intelligence, Machine Learning, Java, Python, Web Developer, Bengaluru, Presidency University">
+    <meta name="author" content="B Jagan">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jagan-techie.github.io/">
+    <meta property="og:title" content="B Jagan | AI & ML Specialist & Future Software Engineer">
+    <meta property="og:description" content="Explore the portfolio of B Jagan, showcasing projects in Machine Learning, Java Data Structures, and Full Stack Web Development.">
+    <meta property="og:image" content="assets/images/portfolio-preview.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://jagan-techie.github.io/">
+    <meta property="twitter:title" content="B Jagan | AI & ML Specialist & Future Software Engineer">
+    <meta property="twitter:description" content="Explore the portfolio of B Jagan, showcasing projects in Machine Learning, Java Data Structures, and Full Stack Web Development.">
+    <meta property="twitter:image" content="assets/images/portfolio-preview.jpg">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400;700&family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- AOS (Animate on Scroll) CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Loading Screen -->
+    <div id="loader" class="loader-wrapper">
+        <div class="loader-content">
+            <div class="loader-ring"></div>
+            <div class="loader-logo">BJ</div>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div id="custom-cursor-dot" class="cursor-dot"></div>
+    <div id="custom-cursor-ring" class="cursor-ring"></div>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress-container">
+        <div class="scroll-progress-bar" id="scroll-bar"></div>
+    </div>
+
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-accent">&lt;</span> B.Jagan<span class="logo-accent"> /&gt;</span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <!-- Dark/Light Theme Toggle -->
+                <!-- <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+                    <i class="fa-solid fa-moon moon-icon"></i>
+                    <i class="fa-solid fa-sun sun-icon"></i>
+                </button> -->
+                
+                <!-- Hamburger Menu Button -->
+                <button class="hamburger" id="hamburger" aria-label="Open navigation menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <canvas id="hero-particles" class="particles-canvas"></canvas>
+            
+            <div class="hero-frame" data-aos="zoom-in" data-aos-duration="1200">
+                <!-- Top Corner Info Header -->
+                <div class="hero-frame-header">
+                    <span class="hero-header-left">AI & ML SPECIALIST &bull; FUTURE SOFTWARE ENGINEER</span>
+                    <span class="hero-header-right">
+                        AVAILABLE FOR OPPORTUNITIES <i class="fa-solid fa-plus hero-plus-icon"></i>
+                    </span>
+                </div>
+
+                <!-- Backdrop Title Text -->
+                <div class="hero-backdrop-wrapper">
+                    <h1 class="hero-backdrop-text">PORTFOLIO</h1>
+                </div>
+
+                <!-- Main Layout Container -->
+                <div class="hero-inner-container">
+                    <!-- Left Side Details -->
+                    <div class="hero-side-left" data-aos="fade-right" data-aos-delay="400" data-aos-duration="1000">
+                        <span class="hero-handwritten">Hello, I'm</span>
+                        <h2 class="hero-display-name">B. Jagan</h2>
+                        <h3 class="hero-role-title">
+                            AI & ML & <span class="hero-typing" id="typewriter"></span><span class="cursor-blink">|</span>
+                        </h3>
+                        <p class="hero-display-desc">
+                            MCA Student specializing in Artificial Intelligence & Machine Learning at Presidency University. Software Developer focused on building robust full-stack applications and intelligent ML systems.
+                        </p>
+                        
+                        <div class="hero-buttons-sleek">
+                            <a href="#contact" class="btn btn-sleek-primary">
+                                <span>Contact Me</span><i class="fa-solid fa-paper-plane"></i>
+                            </a>
+                            <a href="#projects" class="btn btn-sleek-secondary">
+                                <span>Projects</span><i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                            <a href="assets/resume/badiga jagan resume.pdf" download="B_Jagan_Resume.pdf" class="btn btn-sleek-secondary" aria-label="Download Resume">
+                                <span>Resume</span><i class="fa-solid fa-arrow-down"></i>
+                            </a>
+                        </div>
+                        
+                        <div class="hero-location-status">
+                            <i class="fa-solid fa-globe hero-globe-icon"></i>
+                            <span>AVAILABLE WORLDWIDE</span>
+                        </div>
+                    </div>
+
+                    <!-- Centered Profile Image -->
+                    <div class="hero-center-img-wrapper" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                        <div class="hero-img-cutout">
+                            <img src="assets/profile_hero.png" alt="B Jagan" class="hero-profile-pic">
+                        </div>
+                    </div>
+
+                    <!-- Right Side Details -->
+                    <div class="hero-side-right" data-aos="fade-left" data-aos-delay="400" data-aos-duration="1000">
+                        <div class="hero-tagline-block">
+                            <i class="fa-solid fa-crosshairs tagline-target-icon"></i>
+                            <p class="hero-tagline-text">Transforming data into intelligent solutions.</p>
+                        </div>
+                        
+                        <!-- Statistics List -->
+                        <div class="hero-stats-list">
+                            <div class="hero-stat-row">
+                                <span class="hero-stat-num">25+</span>
+                                <span class="hero-stat-lbl">GITHUB<br>PROJECTS</span>
+                            </div>
+                            <div class="hero-stat-row">
+                                <span class="hero-stat-num">15+</span>
+                                <span class="hero-stat-lbl">ML<br>PROJECTS</span>
+                            </div>
+                            <div class="hero-stat-row">
+                                <span class="hero-stat-num">300+</span>
+                                <span class="hero-stat-lbl">SOLVED<br>PROBLEMS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Scroll Down Mouse Indicator -->
+            <div class="scroll-down-indicator-sleek">
+                <a href="#about" aria-label="Scroll down to About Me">
+                    <span class="mouse-icon-sleek">
+                        <span class="wheel-sleek"></span>
+                    </span>
+                </a>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="about-section section">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-tagline">Introduction</span>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="about-content grid">
+                    <div class="about-text-wrapper" data-aos="fade-right">
+                        <h3 class="about-greeting">
+                            Building intelligent software for a better tomorrow.
+                        </h3>
+                        <p class="about-description">
+                            I am a passionate MCA student specializing in Artificial Intelligence and Machine Learning with a strong interest in Software Development, Machine Learning, Full Stack Development, and Problem Solving. I enjoy learning new technologies, building practical projects, and continuously improving my programming skills. My goal is to become a highly skilled Software Engineer capable of developing scalable, intelligent, and user-friendly applications.
+                        </p>
+                        <p class="about-description">
+                            Currently, I am expanding my knowledge in Data Structures, Advanced Algorithms, and Cloud Architectures while developing intelligence-driven applications using modern web and AI tools.
+                        </p>
+                        
+                        <div class="personal-info-grid">
+                            <div class="info-item">
+                                <span class="info-label">Name:</span>
+                                <span class="info-val">B Jagan</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Location:</span>
+                                <span class="info-val">Bengaluru, Karnataka, India</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Study:</span>
+                                <span class="info-val">Presidency University</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Specialization:</span>
+                                <span class="info-val">AI & Machine Learning</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-interests-wrapper" data-aos="fade-left">
+                        <h3 class="interests-title">Core Interests</h3>
+                        <div class="interests-grid">
+                            <div class="interest-card glass-card">
+                                <i class="fa-solid fa-brain interest-icon"></i>
+                                <span>Artificial Intelligence</span>
+                            </div>
+                            <div class="interest-card glass-card">
+                                <i class="fa-solid fa-network-wired interest-icon"></i>
+                                <span>Machine Learning</span>
+                            </div>
+                            <div class="interest-card glass-card">
+                                <i class="fa-solid fa-code interest-icon"></i>
+                                <span>Data Structures & Algorithms</span>
+                            </div>
+                            <div class="interest-card glass-card">
+                                <i class="fa-solid fa-laptop-code interest-icon"></i>
+                                <span>Web Development</span>
+                            </div>
+                            <div class="interest-card glass-card">
+                                <i class="fa-brands fa-java interest-icon"></i>
+                                <span>Java Development</span>
+                            </div>
+                            <div class="interest-card glass-card">
+                                <i class="fa-brands fa-python interest-icon"></i>
+                                <span>Python Programming</span>
+                            </div>
+                            <div class="interest-card glass-card">
+                                <i class="fa-solid fa-lightbulb interest-icon"></i>
+                                <span>Problem Solving</span>
+                            </div>
+                            <div class="interest-card glass-card">
+                                <i class="fa-solid fa-graduation-cap interest-icon"></i>
+                                <span>Continuous Learning</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education-section section section-alt">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-tagline">Academic Background</span>
+                    <h2 class="section-title">Education Journey</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="timeline">
+                    <!-- Timeline Item 1 -->
+                    <div class="timeline-item" data-aos="fade-right">
+                        <div class="timeline-dot"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <div class="timeline-date">2025 - 2027 (Expected)</div>
+                        <div class="timeline-content glass-card">
+                            <h3 class="timeline-title">Master of Computer Applications (MCA)</h3>
+                            <h4 class="timeline-subtitle">Presidency University, Bengaluru</h4>
+                            <p class="timeline-desc">
+                                Specialization in Artificial Intelligence and Machine Learning. Pursuing advanced studies in Deep Learning, Natural Language Processing, Algorithm Design, and Web Architectures.
+                            </p>
+                            <span class="timeline-badge">Graduating 2027</span>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 2 -->
+                    <div class="timeline-item" data-aos="fade-left">
+                        <div class="timeline-dot"><i class="fa-solid fa-university"></i></div>
+                        <div class="timeline-date">2022 - 2025</div>
+                        <div class="timeline-content glass-card">
+                            <h3 class="timeline-title">Bachelor of Science (B.Sc.) in Computer Science</h3>
+                            <h4 class="timeline-subtitle">Acharya Nagarjuna University</h4>
+                            <p class="timeline-desc">
+                                Gained foundational knowledge in Computer Science principles, including database management, operating systems, structural programming (C/C++, Java), and basic web development.
+                            </p>
+                            <div class="timeline-grade">
+                                <span>CGPA:</span> <strong>7.4 / 10</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Timeline Item 3 -->
+                    <div class="timeline-item" data-aos="fade-left">
+                        <div class="timeline-dot"><i class="fa-solid fa-collage"></i></div>
+                        <div class="timeline-date">2020 - 2022</div>
+                        <div class="timeline-content glass-card">
+                            <h3 class="timeline-title">MATHS PHYSICS CHEMISTRY (Intermediate)</h3>
+                            <h4 class="timeline-subtitle">Narayana Junior Collage</h4>
+                            <p class="timeline-desc">
+                                <!-- Gained foundational knowledge in Computer Science principles, including database management, operating systems, structural programming (C/C++, Java), and basic web development. -->
+                            </p>
+                            <div class="timeline-grade">
+                                <span>SCORE:</span> <strong>93 %</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section section">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-tagline">Tech Stack</span>
+                    <h2 class="section-title">Technical Skills</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <!-- Skill Categories Navigation -->
+                <div class="skills-tabs" data-aos="fade-up">
+                    <button class="tab-btn active" data-tab="all">All Skills</button>
+                    <button class="tab-btn" data-tab="languages">Languages</button>
+                    <button class="tab-btn" data-tab="core">Core Subjects</button>
+                    <button class="tab-btn" data-tab="libraries">Libraries & Frameworks</button>
+                    <button class="tab-btn" data-tab="tools">Tools & Databases</button>
+                </div>
+
+                <!-- Skills Grid -->
+                <div class="skills-grid" data-aos="fade-up">
+                    
+                    <!-- Languages -->
+                    <div class="skill-card glass-card" data-category="languages">
+                        <div class="skill-info">
+                            <div class="skill-icon-name">
+                                <i class="fa-brands fa-java skill-icon text-orange"></i>
+                                <span class="skill-name">Java</span>
+                            </div>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="85%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card glass-card" data-category="languages">
+                        <div class="skill-info">
+                            <div class="skill-icon-name">
+                                <i class="fa-brands fa-python skill-icon text-blue"></i>
+                                <span class="skill-name">Python</span>
+                            </div>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="80%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card glass-card" data-category="languages">
+                        <div class="skill-info">
+                            <div class="skill-icon-name">
+                                <i class="fa-brands fa-js-square skill-icon text-yellow"></i>
+                                <span class="skill-name">JavaScript</span>
+                            </div>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="75%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card glass-card" data-category="languages">
+                        <div class="skill-info">
+                            <div class="skill-icon-name">
+                                <i class="fa-brands fa-html5 skill-icon text-red"></i>
+                                <span class="skill-name">HTML5</span>
+                            </div>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="90%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card glass-card" data-category="languages">
+                        <div class="skill-info">
+                            <div class="skill-icon-name">
+                                <i class="fa-brands fa-css3-alt skill-icon text-cyan"></i>
+                                <span class="skill-name">CSS3</span>
+                            </div>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="85%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card glass-card" data-category="languages">
+                        <div class="skill-info">
+                            <div class="skill-icon-name">
+                                <i class="fa-solid fa-database skill-icon text-purple"></i>
+                                <span class="skill-name">SQL</span>
+                            </div>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="80%"></div>
+                        </div>
+                    </div>
+
+                    <!-- Core Subjects -->
+                    <div class="skill-card glass-card" data-category="core">
+                        <div class="skill-info">
+                            <div class="skill-icon-name">
+                                <i class="fa-solid fa-tree skill-icon text-green"></i>
+                                <span class="skill-name">Data Structures</span>
+                            </div>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="80%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card glass-card" data-category="core">
+                        <div class="skill-info">
+                            <div class="skill-icon-name">
+                                <i class="fa-solid fa-gears skill-icon"></i>
+                                <span class="skill-name">Algorithms</span>
+                            </div>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="75%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card glass-card" data-category="core">
+                        <div class="skill-info">
+                            <div class="skill-icon-name">
+                                <i class="fa-solid fa-cubes skill-icon"></i>
+                                <span class="skill-name">OOP Concepts</span>
+                            </div>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="85%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card glass-card" data-category="core">
+                        <div class="skill-info">
+                            <div class="skill-icon-name">
+                                <i class="fa-solid fa-chart-line skill-icon text-blue"></i>
+                                <span class="skill-name">Machine Learning</span>
+                            </div>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="75%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card glass-card" data-category="core">
+                        <div class="skill-info">
+                            <div class="skill-icon-name">
+                                <i class="fa-solid fa-table skill-icon text-cyan"></i>
+                                <span class="skill-name">DBMS</span>
+                            </div>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="80%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card glass-card" data-category="core">
+                        <div class="skill-info">
+                            <div class="skill-icon-name">
+                                <i class="fa-solid fa-network-wired skill-icon text-pink"></i>
+                                <span class="skill-name">Computer Networks</span>
+                            </div>
+                            <span class="skill-percentage">70%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="70%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card glass-card" data-category="core">
+                        <div class="skill-info">
+                            <div class="skill-icon-name">
+                                <i class="fa-solid fa-cloud skill-icon text-cyan"></i>
+                                <span class="skill-name">Cloud Computing</span>
+                            </div>
+                            <span class="skill-percentage">70%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="70%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card glass-card" data-category="core">
+                        <div class="skill-info">
+                            <div class="skill-icon-name">
+                                <i class="fa-solid fa-microchip skill-icon"></i>
+                                <span class="skill-name">Operating Systems</span>
+                            </div>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="75%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card glass-card" data-category="core">
+                        <div class="skill-info">
+                            <div class="skill-icon-name">
+                                <i class="fa-solid fa-robot skill-icon text-glow"></i>
+                                <span class="skill-name">Artificial Intelligence</span>
+                            </div>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="75%"></div>
+                        </div>
+                    </div>
+
+                    <!-- Libraries & Frameworks -->
+
+                    <div class="skill-card glass-card" data-category="libraries">
+                        <div class="skill-info">
+                            <div class="skill-icon-name">
+                                <i class="fa-solid fa-calculator skill-icon text-blue"></i>
+                                <span class="skill-name">NumPy</span>
+                            </div>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="80%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card glass-card" data-category="libraries">
+                        <div class="skill-info">
+                            <div class="skill-icon-name">
+                                <i class="fa-solid fa-file-csv skill-icon text-purple"></i>
+                                <span class="skill-name">Pandas</span>
+                            </div>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="80%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card glass-card" data-category="libraries">
+                        <div class="skill-info">
+                            <div class="skill-icon-name">
+                                <i class="fa-solid fa-chart-pie skill-icon text-orange"></i>
+                                <span class="skill-name">Matplotlib</span>
+                            </div>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="75%"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="skill-card glass-card" data-category="libraries">
+                        <div class="skill-info">
+                            <div class="skill-icon-name">
+                                <i class="fa-solid fa-pepper-hot skill-icon text-red"></i>
+                                <span class="skill-name">Flask</span>
+                            </div>
+                            <span class="skill-percentage">70%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="70%"></div>
+                        </div>
+                    </div>
+
+                    <!-- Tools & Databases -->
+                    <div class="skill-card glass-card" data-category="tools">
+                        <div class="skill-info">
+                            <div class="skill-icon-name">
+                                <i class="fa-brands fa-git-alt skill-icon text-orange"></i>
+                                <span class="skill-name">Git & GitHub</span>
+                            </div>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="80%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card glass-card" data-category="tools">
+                        <div class="skill-info">
+                            <div class="skill-icon-name">
+                                <i class="fa-solid fa-server skill-icon text-cyan"></i>
+                                <span class="skill-name">MySQL</span>
+                            </div>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section section section-alt">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-tagline">My Works</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <!-- Projects Controls (Search & Category Filters) -->
+                <div class="projects-controls" data-aos="fade-up">
+                    <div class="search-box">
+                        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                        <input type="text" id="project-search" placeholder="Search projects by name or technology...">
+                    </div>
+                    
+                    <div class="project-filters">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="ai-ml">AI & ML</button>
+                        <button class="filter-btn" data-filter="java">Java & DSA</button>
+                    </div>
+                </div>
+
+                <!-- Projects Grid -->
+                <div class="projects-grid" id="projects-container">
+                    
+                    <!-- Project 1: Fake News Detection -->
+                    <article class="project-card glass-card" data-category="ai-ml" data-aos="fade-up">
+                        <div class="project-banner">
+                            <!-- SVG Project visual placeholder -->
+                            <svg viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="400" height="200" fill="url(#p1-grad)"/>
+                                <circle cx="200" cy="100" r="60" stroke="rgba(255,255,255,0.1)" stroke-width="4"/>
+                                <path d="M170 100H230M200 70V130" stroke="#00F2FE" stroke-width="3" stroke-linecap="round"/>
+                                <text x="50%" y="85%" dominant-baseline="middle" text-anchor="middle" fill="#ffffff" font-family="'Outfit', sans-serif" font-weight="600" font-size="16">EXPLAINABLE AI (SHAP)</text>
+                                <defs>
+                                    <linearGradient id="p1-grad" x1="0" y1="0" x2="400" y2="200">
+                                        <stop stop-color="#0B0F19"/>
+                                        <stop offset="1" stop-color="#1A2238"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <span class="project-badge">AI / NLP</span>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Fake News Detection with Explainability</h3>
+                            <p class="project-desc">
+                                Developed an AI-powered Fake News Detection System using Machine Learning and Natural Language Processing. Integrates Explainable AI using SHAP to highlight the linguistic markers influencing classification.
+                            </p>
+                            <div class="project-features">
+                                <span><i class="fa-solid fa-check"></i> User Auth</span>
+                                <span><i class="fa-solid fa-check"></i> SHAP Visuals</span>
+                                <span><i class="fa-solid fa-check"></i> Confidence Score</span>
+                                <span><i class="fa-solid fa-check"></i> Dashboard UI</span>
+                            </div>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>Flask</span>
+                                <span>Scikit-Learn</span>
+                                <span>SHAP</span>
+                                <span>MongoDB</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/jagan-techie/Fake-news-detection-with-explanability" target="_blank" class="btn btn-sm btn-outline"><i class="fa-brands fa-github"></i> GitHub</a>
+                                <!-- <a href="#" class="btn btn-sm btn-primary demo-trigger"><i class="fa-solid fa-external-link"></i> Live Demo</a> -->
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: Machine Learning Models -->
+                    <article class="project-card glass-card" data-category="ai-ml" data-aos="fade-up" data-aos-delay="100">
+                        <div class="project-banner">
+                            <svg viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="400" height="200" fill="url(#p2-grad)"/>
+                                <path d="M80 150L140 100L200 120L280 60L320 80" stroke="#4FACFE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                <circle cx="320" cy="80" r="6" fill="#00F2FE"/>
+                                <circle cx="280" cy="60" r="6" fill="#00F2FE"/>
+                                <text x="50%" y="85%" dominant-baseline="middle" text-anchor="middle" fill="#ffffff" font-family="'Outfit', sans-serif" font-weight="600" font-size="16">ML ALGORITHM SUITE</text>
+                                <defs>
+                                    <linearGradient id="p2-grad" x1="0" y1="0" x2="400" y2="200">
+                                        <stop stop-color="#0F172A"/>
+                                        <stop offset="1" stop-color="#1E293B"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <span class="project-badge">Machine Learning</span>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Core Machine Learning Models</h3>
+                            <p class="project-desc">
+                                End-to-end implementation and comparative performance analysis of various foundational ML algorithms, applied on real-world datasets for classification, regression, and clustering.
+                            </p>
+                            <div class="project-features">
+                                <span><i class="fa-solid fa-check"></i> Regression & Trees</span>
+                                <span><i class="fa-solid fa-check"></i> Random Forest & SVM</span>
+                                <span><i class="fa-solid fa-check"></i> PCA Reduction</span>
+                                <span><i class="fa-solid fa-check"></i> K-Means Cluster</span>
+                            </div>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>Scikit-Learn</span>
+                                <span>Pandas</span>
+                                <span>NumPy</span>
+                                <span>Matplotlib</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/jagan-techie/ml-models-suite" target="_blank" class="btn btn-sm btn-outline"><i class="fa-brands fa-github"></i> GitHub</a>
+                                <a href="#" class="btn btn-sm btn-primary demo-trigger"><i class="fa-solid fa-external-link"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3: Java Data Structures Practice -->
+                    <article class="project-card glass-card" data-category="java" data-aos="fade-up" data-aos-delay="200">
+                        <div class="project-banner">
+                            <svg viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="400" height="200" fill="url(#p3-grad)"/>
+                                <path d="M120 70H280M120 100H280M120 130H280" stroke="rgba(255,255,255,0.05)" stroke-width="6" stroke-linecap="round"/>
+                                <path d="M150 100C150 70 250 70 250 100C250 130 150 130 150 100Z" stroke="#4FACFE" stroke-width="3"/>
+                                <text x="50%" y="85%" dominant-baseline="middle" text-anchor="middle" fill="#ffffff" font-family="'Outfit', sans-serif" font-weight="600" font-size="16">DSA IMPLEMENTATION</text>
+                                <defs>
+                                    <linearGradient id="p3-grad" x1="0" y1="0" x2="400" y2="200">
+                                        <stop stop-color="#111827"/>
+                                        <stop offset="1" stop-color="#1F2937"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <span class="project-badge">Java / DSA</span>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Java Data Structures & Algorithms</h3>
+                            <p class="project-desc">
+                                A repository documenting optimized custom implementations of fundamental data structures and algorithmic problem solutions. Focused on clean practices, memory limits, and optimal complexity.
+                            </p>
+                            <div class="project-features">
+                                <span><i class="fa-solid fa-check"></i> Custom Lists & Trees</span>
+                                <span><i class="fa-solid fa-check"></i> Stack / Queue Logic</span>
+                                <span><i class="fa-solid fa-check"></i> Sorting & Searching</span>
+                                <span><i class="fa-solid fa-check"></i> Recursion Practice</span>
+                            </div>
+                            <div class="project-tech">
+                                <span>Java</span>
+                                <span>OOP Concepts</span>
+                                <span>Algorithms</span>
+                                <span>Data Structures</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/jagan-techie/java-dsa-practice" target="_blank" class="btn btn-sm btn-outline"><i class="fa-brands fa-github"></i> GitHub</a>
+                                <a href="#" class="btn btn-sm btn-primary demo-trigger"><i class="fa-solid fa-external-link"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="achievements-section section">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-tagline">Milestones</span>
+                    <h2 class="section-title">Key Statistics & Achievements</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-card glass-card" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="stat-icon-wrapper">
+                            <i class="fa-brands fa-github stat-icon text-glow"></i>
+                        </div>
+                        <div class="counter-number" data-target="25">0</div>
+                        <h3 class="stat-label">GitHub Projects</h3>
+                    </div>
+
+                    <div class="stat-card glass-card" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="stat-icon-wrapper">
+                            <i class="fa-solid fa-network-wired stat-icon text-glow"></i>
+                        </div>
+                        <div class="counter-number" data-target="15">0</div>
+                        <h3 class="stat-label">Machine Learning Projects</h3>
+                    </div>
+
+                    <div class="stat-card glass-card" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="stat-icon-wrapper">
+                            <i class="fa-solid fa-code-fork stat-icon text-glow"></i>
+                        </div>
+                        <div class="counter-number" data-target="300">0</div>
+                        <h3 class="stat-label">Problem Solving Problems Solved</h3>
+                    </div>
+
+                    <div class="stat-card glass-card" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="stat-icon-wrapper">
+                            <i class="fa-solid fa-award stat-icon text-glow"></i>
+                        </div>
+                        <div class="counter-number" data-target="4">0</div>
+                        <h3 class="stat-label">AI & ML Specialization Certificates</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="certifications-section section section-alt">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-tagline">Credentials</span>
+                    <h2 class="section-title">NPTEL Certifications</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="certifications-grid">
+                    
+                    <div class="cert-card glass-card" data-aos="fade-up">
+                        <div class="cert-icon-wrapper">
+                            <i class="fa-solid fa-certificate cert-icon"></i>
+                        </div>
+                        <h3 class="cert-title">Machine Learning</h3>
+                        <p class="cert-issuer">NPTEL / Swayam</p>
+                        <p class="cert-desc">Rigorous examination coverages of supervised and unsupervised learning, gradient algorithms, and models evaluation.</p>
+                        <span class="cert-badge">Verified</span>
+                    </div>
+
+                    <div class="cert-card glass-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="cert-icon-wrapper">
+                            <i class="fa-solid fa-certificate cert-icon"></i>
+                        </div>
+                        <h3 class="cert-title">Programming in Python</h3>
+                        <p class="cert-issuer">NPTEL / Swayam</p>
+                        <p class="cert-desc">Core competencies, object-oriented concepts, text manipulation, parsing, and analysis of data using libraries.</p>
+                        <span class="cert-badge">Verified</span>
+                    </div>
+
+                    <div class="cert-card glass-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="cert-icon-wrapper">
+                            <i class="fa-solid fa-certificate cert-icon"></i>
+                        </div>
+                        <h3 class="cert-title">Programming in Java</h3>
+                        <p class="cert-issuer">NPTEL / Swayam</p>
+                        <p class="cert-desc">Comprehensive java concepts including multi-threading, applet design, exceptions handling, and file streaming structures.</p>
+                        <span class="cert-badge">Verified</span>
+                    </div>
+
+                    <div class="cert-card glass-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="cert-icon-wrapper">
+                            <i class="fa-solid fa-certificate cert-icon"></i>
+                        </div>
+                        <h3 class="cert-title">Cloud Computing</h3>
+                        <p class="cert-issuer">NPTEL / Swayam</p>
+                        <p class="cert-desc">Introduction to virtualization systems, service models (SaaS/PaaS/IaaS), MapReduce configurations, and cluster models.</p>
+                        <span class="cert-badge">Verified</span>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- GitHub Section -->
+        <section id="github" class="github-section section">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-tagline">Open Source Contribution</span>
+                    <h2 class="section-title">GitHub Profile Activity</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="github-content glass-card" data-aos="fade-up">
+                    <div class="github-profile-header">
+                        <div class="github-user-info">
+                            <i class="fa-brands fa-github github-large-icon"></i>
+                            <div>
+                                <h3 class="github-username">jagan-techie</h3>
+                                <a href="https://github.com/jagan-techie" target="_blank" class="github-profile-link">
+                                    <span>view github profile</span><i class="fa-solid fa-external-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="github-stats">
+                            <div class="git-stat">
+                                <span class="git-stat-val">15+</span>
+                                <span class="git-stat-lbl">Repositories</span>
+                            </div>
+                            <div class="git-stat">
+                                <span class="git-stat-val">12</span>
+                                <span class="git-stat-lbl">Stars</span>
+                            </div>
+                            <div class="git-stat">
+                                <span class="git-stat-val">28</span>
+                                <span class="git-stat-lbl">Followers</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="github-contribution-graph">
+                        <h4 class="graph-title">Contributions (Contribution Heatmap Overview)</h4>
+                        <!-- contribution graph mock layout in SVG -->
+                        <div class="heatmap-container">
+                            <svg class="heatmap-svg" viewBox="0 0 540 80">
+                                <g transform="translate(10, 10)">
+                                    <!-- Row 1 -->
+                                    <rect x="0" y="0" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="13" y="0" width="10" height="10" rx="2" fill="#0f172a"/>
+                                    <rect x="26" y="0" width="10" height="10" rx="2" fill="#00F2FE"/>
+                                    <rect x="39" y="0" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="52" y="0" width="10" height="10" rx="2" fill="#0f172a"/>
+                                    <rect x="65" y="0" width="10" height="10" rx="2" fill="#0e7490"/>
+                                    <rect x="78" y="0" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="91" y="0" width="10" height="10" rx="2" fill="#2563eb"/>
+                                    <rect x="104" y="0" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="117" y="0" width="10" height="10" rx="2" fill="#0f172a"/>
+                                    <rect x="130" y="0" width="10" height="10" rx="2" fill="#00F2FE"/>
+                                    <rect x="143" y="0" width="10" height="10" rx="2" fill="#2563eb"/>
+                                    <rect x="156" y="0" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="169" y="0" width="10" height="10" rx="2" fill="#0f172a"/>
+                                    <rect x="182" y="0" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="195" y="0" width="10" height="10" rx="2" fill="#00F2FE"/>
+                                    <rect x="208" y="0" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="221" y="0" width="10" height="10" rx="2" fill="#0f172a"/>
+                                    <rect x="234" y="0" width="10" height="10" rx="2" fill="#0e7490"/>
+                                    <rect x="247" y="0" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="260" y="0" width="10" height="10" rx="2" fill="#2563eb"/>
+                                    <rect x="273" y="0" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="286" y="0" width="10" height="10" rx="2" fill="#0f172a"/>
+                                    <rect x="299" y="0" width="10" height="10" rx="2" fill="#00F2FE"/>
+                                    <rect x="312" y="0" width="10" height="10" rx="2" fill="#2563eb"/>
+                                    <rect x="325" y="0" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="338" y="0" width="10" height="10" rx="2" fill="#0f172a"/>
+                                    <rect x="351" y="0" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="364" y="0" width="10" height="10" rx="2" fill="#00F2FE"/>
+                                    <rect x="377" y="0" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="390" y="0" width="10" height="10" rx="2" fill="#0f172a"/>
+                                    <rect x="403" y="0" width="10" height="10" rx="2" fill="#0e7490"/>
+                                    <rect x="416" y="0" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="429" y="0" width="10" height="10" rx="2" fill="#2563eb"/>
+                                    <rect x="442" y="0" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="455" y="0" width="10" height="10" rx="2" fill="#0f172a"/>
+                                    <rect x="468" y="0" width="10" height="10" rx="2" fill="#00F2FE"/>
+                                    <rect x="481" y="0" width="10" height="10" rx="2" fill="#2563eb"/>
+                                    <rect x="494" y="0" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="507" y="0" width="10" height="10" rx="2" fill="#0f172a"/>
+
+                                    <!-- Row 2 -->
+                                    <rect x="0" y="13" width="10" height="10" rx="2" fill="#0f172a"/>
+                                    <rect x="13" y="13" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="26" y="13" width="10" height="10" rx="2" fill="#0f172a"/>
+                                    <rect x="39" y="13" width="10" height="10" rx="2" fill="#2563eb"/>
+                                    <rect x="52" y="13" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="65" y="13" width="10" height="10" rx="2" fill="#00F2FE"/>
+                                    <rect x="78" y="13" width="10" height="10" rx="2" fill="#0f172a"/>
+                                    <rect x="91" y="13" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="104" y="13" width="10" height="10" rx="2" fill="#0f172a"/>
+                                    <rect x="117" y="13" width="10" height="10" rx="2" fill="#00F2FE"/>
+                                    <rect x="130" y="13" width="10" height="10" rx="2" fill="#2563eb"/>
+                                    <rect x="143" y="13" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="156" y="13" width="10" height="10" rx="2" fill="#0f172a"/>
+                                    <rect x="169" y="13" width="10" height="10" rx="2" fill="#2563eb"/>
+                                    <rect x="182" y="13" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="195" y="13" width="10" height="10" rx="2" fill="#00F2FE"/>
+                                    <rect x="208" y="13" width="10" height="10" rx="2" fill="#0f172a"/>
+                                    <rect x="221" y="13" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="234" y="13" width="10" height="10" rx="2" fill="#0f172a"/>
+                                    <rect x="247" y="13" width="10" height="10" rx="2" fill="#0e7490"/>
+                                    <rect x="260" y="13" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="273" y="13" width="10" height="10" rx="2" fill="#2563eb"/>
+                                    <rect x="286" y="13" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="299" y="13" width="10" height="10" rx="2" fill="#0f172a"/>
+                                    <rect x="312" y="13" width="10" height="10" rx="2" fill="#00F2FE"/>
+                                    <rect x="325" y="13" width="10" height="10" rx="2" fill="#2563eb"/>
+                                    <rect x="338" y="13" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="351" y="13" width="10" height="10" rx="2" fill="#0f172a"/>
+                                    <rect x="364" y="13" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="377" y="13" width="10" height="10" rx="2" fill="#00F2FE"/>
+                                    <rect x="390" y="13" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="403" y="13" width="10" height="10" rx="2" fill="#0f172a"/>
+                                    <rect x="416" y="13" width="10" height="10" rx="2" fill="#0e7490"/>
+                                    <rect x="429" y="13" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="442" y="13" width="10" height="10" rx="2" fill="#2563eb"/>
+                                    <rect x="455" y="13" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="468" y="13" width="10" height="10" rx="2" fill="#0f172a"/>
+                                    <rect x="481" y="13" width="10" height="10" rx="2" fill="#00F2FE"/>
+                                    <rect x="494" y="13" width="10" height="10" rx="2" fill="#2563eb"/>
+                                    <rect x="507" y="13" width="10" height="10" rx="2" fill="#1e293b"/>
+
+                                    <!-- Row 3 -->
+                                    <rect x="0" y="26" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="13" y="26" width="10" height="10" rx="2" fill="#0e7490"/>
+                                    <rect x="26" y="26" width="10" height="10" rx="2" fill="#0f172a"/>
+                                    <rect x="39" y="26" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="52" y="26" width="10" height="10" rx="2" fill="#2563eb"/>
+                                    <rect x="65" y="26" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="78" y="26" width="10" height="10" rx="2" fill="#00F2FE"/>
+                                    <rect x="91" y="26" width="10" height="10" rx="2" fill="#0f172a"/>
+                                    <rect x="104" y="26" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="117" y="26" width="10" height="10" rx="2" fill="#0f172a"/>
+                                    <rect x="130" y="26" width="10" height="10" rx="2" fill="#00F2FE"/>
+                                    <rect x="143" y="26" width="10" height="10" rx="2" fill="#2563eb"/>
+                                    <rect x="156" y="26" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="169" y="26" width="10" height="10" rx="2" fill="#0f172a"/>
+                                    <rect x="182" y="26" width="10" height="10" rx="2" fill="#2563eb"/>
+                                    <rect x="195" y="26" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="208" y="26" width="10" height="10" rx="2" fill="#00F2FE"/>
+                                    <rect x="221" y="26" width="10" height="10" rx="2" fill="#0f172a"/>
+                                    <rect x="234" y="26" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="247" y="26" width="10" height="10" rx="2" fill="#0f172a"/>
+                                    <rect x="260" y="26" width="10" height="10" rx="2" fill="#0e7490"/>
+                                    <rect x="273" y="26" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="286" y="26" width="10" height="10" rx="2" fill="#2563eb"/>
+                                    <rect x="299" y="26" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="312" y="26" width="10" height="10" rx="2" fill="#0f172a"/>
+                                    <rect x="325" y="26" width="10" height="10" rx="2" fill="#00F2FE"/>
+                                    <rect x="338" y="26" width="10" height="10" rx="2" fill="#2563eb"/>
+                                    <rect x="351" y="26" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="364" y="26" width="10" height="10" rx="2" fill="#0f172a"/>
+                                    <rect x="377" y="26" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="390" y="26" width="10" height="10" rx="2" fill="#00F2FE"/>
+                                    <rect x="403" y="26" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="416" y="26" width="10" height="10" rx="2" fill="#0f172a"/>
+                                    <rect x="429" y="26" width="10" height="10" rx="2" fill="#0e7490"/>
+                                    <rect x="436" y="26" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="449" y="26" width="10" height="10" rx="2" fill="#2563eb"/>
+                                    <rect x="462" y="26" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="475" y="26" width="10" height="10" rx="2" fill="#0f172a"/>
+                                    <rect x="488" y="26" width="10" height="10" rx="2" fill="#00F2FE"/>
+                                    <rect x="501" y="26" width="10" height="10" rx="2" fill="#2563eb"/>
+
+                                    <!-- Row 4 -->
+                                    <rect x="0" y="39" width="10" height="10" rx="2" fill="#0f172a"/>
+                                    <rect x="13" y="39" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="26" y="39" width="10" height="10" rx="2" fill="#0f172a"/>
+                                    <rect x="39" y="39" width="10" height="10" rx="2" fill="#2563eb"/>
+                                    <rect x="52" y="39" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="65" y="39" width="10" height="10" rx="2" fill="#00F2FE"/>
+                                    <rect x="78" y="39" width="10" height="10" rx="2" fill="#0f172a"/>
+                                    <rect x="91" y="39" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="104" y="39" width="10" height="10" rx="2" fill="#0f172a"/>
+                                    <rect x="117" y="39" width="10" height="10" rx="2" fill="#00F2FE"/>
+                                    <rect x="130" y="39" width="10" height="10" rx="2" fill="#2563eb"/>
+                                    <rect x="143" y="39" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="156" y="39" width="10" height="10" rx="2" fill="#0f172a"/>
+                                    <rect x="169" y="39" width="10" height="10" rx="2" fill="#2563eb"/>
+                                    <rect x="182" y="39" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="195" y="39" width="10" height="10" rx="2" fill="#00F2FE"/>
+                                    <rect x="208" y="39" width="10" height="10" rx="2" fill="#0f172a"/>
+                                    <rect x="221" y="39" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="234" y="39" width="10" height="10" rx="2" fill="#0f172a"/>
+                                    <rect x="247" y="39" width="10" height="10" rx="2" fill="#0e7490"/>
+                                    <rect x="260" y="39" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="273" y="39" width="10" height="10" rx="2" fill="#2563eb"/>
+                                    <rect x="286" y="39" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="299" y="39" width="10" height="10" rx="2" fill="#0f172a"/>
+                                    <rect x="312" y="39" width="10" height="10" rx="2" fill="#00F2FE"/>
+                                    <rect x="325" y="39" width="10" height="10" rx="2" fill="#2563eb"/>
+                                    <rect x="338" y="39" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="351" y="39" width="10" height="10" rx="2" fill="#0f172a"/>
+                                    <rect x="364" y="39" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="377" y="39" width="10" height="10" rx="2" fill="#00F2FE"/>
+                                    <rect x="390" y="39" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="403" y="39" width="10" height="10" rx="2" fill="#0f172a"/>
+                                    <rect x="416" y="39" width="10" height="10" rx="2" fill="#0e7490"/>
+                                    <rect x="429" y="39" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="442" y="39" width="10" height="10" rx="2" fill="#2563eb"/>
+                                    <rect x="455" y="39" width="10" height="10" rx="2" fill="#1e293b"/>
+                                    <rect x="468" y="39" width="10" height="10" rx="2" fill="#0f172a"/>
+                                    <rect x="481" y="39" width="10" height="10" rx="2" fill="#00F2FE"/>
+                                    <rect x="494" y="39" width="10" height="10" rx="2" fill="#2563eb"/>
+                                    <rect x="507" y="39" width="10" height="10" rx="2" fill="#1e293b"/>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="heatmap-legend">
+                            <span>Less</span>
+                            <span class="legend-box fill-empty"></span>
+                            <span class="legend-box fill-low"></span>
+                            <span class="legend-box fill-medium"></span>
+                            <span class="legend-box fill-high"></span>
+                            <span>More</span>
+                        </div>
+                    </div>
+
+                    <!-- Repos List -->
+                    <div class="github-repos">
+                        <h4 class="repos-title">Popular Repositories</h4>
+                        <div class="repos-grid">
+                            <div class="repo-card glass-card">
+                                <div class="repo-header">
+                                    <i class="fa-solid fa-book repo-icon"></i>
+                                    <h5 class="repo-name"><a href="https://github.com/jagan-techie/fake-news-detector" target="_blank">fake-news-detector</a></h5>
+                                </div>
+                                <p class="repo-desc">Fake news classification using NLP, machine learning algorithms and SHAP explanations interface.</p>
+                                <div class="repo-meta">
+                                    <span class="repo-lang"><span class="lang-color python-color"></span>Python</span>
+                                    <span><i class="fa-solid fa-star"></i> 5</span>
+                                    <span><i class="fa-solid fa-code-branch"></i> 2</span>
+                                </div>
+                            </div>
+                            <div class="repo-card glass-card">
+                                <div class="repo-header">
+                                    <i class="fa-solid fa-book repo-icon"></i>
+                                    <h5 class="repo-name"><a href="https://github.com/jagan-techie/ml-models-suite" target="_blank">ml-models-suite</a></h5>
+                                </div>
+                                <p class="repo-desc">Foundational machine learning pipelines including regression models, Decision Trees, SVM, clustering.</p>
+                                <div class="repo-meta">
+                                    <span class="repo-lang"><span class="lang-color python-color"></span>Python</span>
+                                    <span><i class="fa-solid fa-star"></i> 4</span>
+                                    <span><i class="fa-solid fa-code-branch"></i> 1</span>
+                                </div>
+                            </div>
+                            <div class="repo-card glass-card">
+                                <div class="repo-header">
+                                    <i class="fa-solid fa-book repo-icon"></i>
+                                    <h5 class="repo-name"><a href="https://github.com/jagan-techie/java-dsa-practice" target="_blank">java-dsa-practice</a></h5>
+                                </div>
+                                <p class="repo-desc">Custom implementation of stacks, queues, graphs, trees, sorting algorithms in Java.</p>
+                                <div class="repo-meta">
+                                    <span class="repo-lang"><span class="lang-color java-color"></span>Java</span>
+                                    <span><i class="fa-solid fa-star"></i> 3</span>
+                                    <span><i class="fa-solid fa-code-branch"></i> 0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services-section section section-alt">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-tagline">What I Offer</span>
+                    <h2 class="section-title">Professional Services</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="services-grid">
+                    
+                    <div class="service-card glass-card" data-aos="fade-up">
+                        <div class="service-icon-wrapper">
+                            <i class="fa-solid fa-laptop-code service-icon"></i>
+                        </div>
+                        <h3 class="service-title">Web Development</h3>
+                        <p class="service-desc">Designing and building responsive, semantic, and high-performance websites using custom coding paradigms.</p>
+                    </div>
+
+                    <div class="service-card glass-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="service-icon-wrapper">
+                            <i class="fa-brands fa-python service-icon"></i>
+                        </div>
+                        <h3 class="service-title">Python Development</h3>
+                        <p class="service-desc">Crafting computational scripts, task automation protocols, APIs, and data modeling applications.</p>
+                    </div>
+
+                    <div class="service-card glass-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="service-icon-wrapper">
+                            <i class="fa-solid fa-network-wired service-icon"></i>
+                        </div>
+                        <h3 class="service-title">Machine Learning</h3>
+                        <p class="service-desc">Building and testing algorithmic classification systems, predictive analytics, clustering models, and data pipelines.</p>
+                    </div>
+
+                    <div class="service-card glass-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service-icon-wrapper">
+                            <i class="fa-solid fa-robot service-icon"></i>
+                        </div>
+                        <h3 class="service-title">AI Projects</h3>
+                        <p class="service-desc">Integrating NLP libraries, LLMs, Computer Vision API wrappers, and Explainable AI overlays to resolve complex tasks.</p>
+                    </div>
+
+                    <div class="service-card glass-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="service-icon-wrapper">
+                            <i class="fa-solid fa-code service-icon"></i>
+                        </div>
+                        <h3 class="service-title">Frontend Development</h3>
+                        <p class="service-desc">Building beautiful responsive user interfaces with premium interactive designs, micro-animations, and clean logic.</p>
+                    </div>
+
+                    <div class="service-card glass-card" data-aos="fade-up" data-aos-delay="500">
+                        <div class="service-icon-wrapper">
+                            <i class="fa-brands fa-java service-icon"></i>
+                        </div>
+                        <h3 class="service-title">Java Applications</h3>
+                        <p class="service-desc">Developing reliable OOP backend components, console tools, database systems integration, and algorithmic scripts.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Soft Skills, Languages & Interests Section -->
+        <section id="additional-details" class="additional-section section">
+            <div class="container grid additional-grid">
+                
+                <!-- Soft Skills Column -->
+                <div class="details-column" data-aos="fade-right">
+                    <h3 class="details-header"><i class="fa-solid fa-people-arrows details-icon"></i>Soft Skills</h3>
+                    <div class="soft-skills-container">
+                        <span class="skill-badge glass-card"><i class="fa-solid fa-comments"></i>Communication</span>
+                        <span class="skill-badge glass-card"><i class="fa-solid fa-brain"></i>Problem Solving</span>
+                        <span class="skill-badge glass-card"><i class="fa-solid fa-users-gear"></i>Leadership</span>
+                        <span class="skill-badge glass-card"><i class="fa-solid fa-people-group"></i>Teamwork</span>
+                        <span class="skill-badge glass-card"><i class="fa-solid fa-bolt"></i>Quick Learning</span>
+                        <span class="skill-badge glass-card"><i class="fa-solid fa-shuffle"></i>Adaptability</span>
+                        <span class="skill-badge glass-card"><i class="fa-solid fa-clock"></i>Time Management</span>
+                        <span class="skill-badge glass-card"><i class="fa-solid fa-magnifying-glass-chart"></i>Critical Thinking</span>
+                    </div>
+                </div>
+
+                <!-- Languages Spoken Column -->
+                <div class="details-column" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="details-header"><i class="fa-solid fa-language details-icon"></i>Languages</h3>
+                    <ul class="languages-list">
+                        <li class="lang-item glass-card">
+                            <span class="lang-name">English</span>
+                            <span class="lang-level">Professional</span>
+                        </li>
+                        <li class="lang-item glass-card">
+                            <span class="lang-name">Telugu</span>
+                            <span class="lang-level">Native</span>
+                        </li>
+                        <li class="lang-item glass-card">
+                            <span class="lang-name">Hindi</span>
+                            <span class="lang-level learning">Communicational</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Interests/Hobbies Column -->
+                <div class="details-column" data-aos="fade-left" data-aos-delay="200">
+                    <h3 class="details-header"><i class="fa-solid fa-heart details-icon"></i>Interests</h3>
+                    <div class="interests-tags">
+                        <span class="interest-tag"><i class="fa-solid fa-robot"></i>Artificial Intelligence</span>
+                        <span class="interest-tag"><i class="fa-solid fa-network-wired"></i>Machine Learning</span>
+                        <span class="interest-tag"><i class="fa-solid fa-laptop-code"></i>Software Development</span>
+                        <!-- <span class="interest-tag"><i class="fa-solid fa-code-branch"></i>Open Source</span> -->
+                        <span class="interest-tag"><i class="fa-solid fa-keyboard"></i>Coding</span>
+                        <span class="interest-tag"><i class="fa-solid fa-video"></i>Video Editing</span>
+                        <span class="interest-tag"><i class="fa-solid fa-microchip"></i>Technology</span>
+                        <span class="interest-tag"><i class="fa-solid fa-lightbulb"></i>Problem Solving</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section section-alt">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-tagline">Get In Touch</span>
+                    <h2 class="section-title">Contact Me</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="contact-wrapper grid">
+                    
+                    <!-- Contact details list -->
+                    <div class="contact-info-panel" data-aos="fade-right">
+                        <h3 class="info-panel-title">Let's Connect</h3>
+                        <p class="info-panel-desc">
+                            Feel free to reach out for internship opportunities, collaborations, or technical project discussions. I'm always open to discussing new ideas and building scalable systems.
+                        </p>
+
+                        <div class="contact-details-list">
+                            <div class="contact-detail-item glass-card">
+                                <div class="detail-icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div class="detail-texts">
+                                    <span class="detail-lbl">Email</span>
+                                    <a href="mailto:royaljagan31@gmail.com" class="detail-val">royaljagan31@gmail.com</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-detail-item glass-card">
+                                <div class="detail-icon"><i class="fa-solid fa-phone"></i></div>
+                                <div class="detail-texts">
+                                    <span class="detail-lbl">Phone / WhatsApp</span>
+                                    <a href="tel:+919160597697" class="detail-val">+91 9160597697</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-detail-item glass-card">
+                                <div class="detail-icon"><i class="fa-solid fa-location-dot"></i></div>
+                                <div class="detail-texts">
+                                    <span class="detail-lbl">Location</span>
+                                    <span class="detail-val">Bengaluru, Karnataka, India</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-links-container">
+                            <a href="https://www.linkedin.com/in/jagan-badiga/" target="_blank" class="social-icon-btn" aria-label="LinkedIn Profile">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/jagan-techie" target="_blank" class="social-icon-btn" aria-label="GitHub Profile">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="mailto:royaljagan31@gmail.com" class="social-icon-btn" aria-label="Send Email">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-panel glass-card" data-aos="fade-left">
+                        <form id="contact-form" class="contact-form" novalidate>
+                            <div class="form-group-row">
+                                <div class="form-group">
+                                    <label for="form-name">Name</label>
+                                    <input type="text" id="form-name" placeholder="Pradip kumar saha" required>
+                                    <span class="error-msg" id="name-error">Please enter your name</span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="form-email">Email</label>
+                                    <input type="email" id="form-email" placeholder="Pradip@example.com" required>
+                                    <span class="error-msg" id="email-error">Please enter a valid email address</span>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="form-subject">Subject</label>
+                                <input type="text" id="form-subject" placeholder="Project Discussion" required>
+                                <span class="error-msg" id="subject-error">Please enter a subject</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="form-message">Message</label>
+                                <textarea id="form-message" rows="5" placeholder="Write your message here..." required></textarea>
+                                <span class="error-msg" id="message-error">Please enter a message</span>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-submit">
+                                <span>Send Message</span><i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                            
+                            <div class="form-status-alert" id="form-alert"></div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-info">
+                <a href="#home" class="logo">
+                    <span class="logo-accent">&lt;</span> B.Jagan<span class="logo-accent"> /&gt;</span>
+                </a>
+                <p class="footer-tag">MCA Student & AI/ML Specialist. Building clean, optimized software solutions.</p>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul class="footer-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-socials">
+                <h4>Follow Me</h4>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/jagan-badiga" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/jagan-techie" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="mailto:jagan.bj@outlook.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 B Jagan. All Rights Reserved. Built with HTML, CSS, and Vanilla JavaScript.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top-btn" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Project Demo Modal (Fallback for demo items) -->
+    <div id="demo-modal" class="modal-wrapper">
+        <div class="modal-content glass-card">
+            <button class="modal-close" id="modal-close-btn">&times;</button>
+            <h3 class="modal-title">Live Demo Notice</h3>
+            <p class="modal-body">
+                This is a student project repository preview. Since this is a static showcase portfolio, the live dynamic server instance is currently hosted under local test pipelines. You can view the full source code and setup guides on GitHub!
+            </p>
+            <div class="modal-actions">
+                <a href="https://github.com/jagan-techie" target="_blank" class="btn btn-primary">Visit GitHub Profile</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- AOS (Animate On Scroll) Library JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    
+    <!-- Custom Application Javascript -->
+    <script src="script.js"></script>
+</body>
+</html>
